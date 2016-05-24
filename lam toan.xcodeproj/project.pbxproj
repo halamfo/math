@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6ED21321CF058090082D594 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = A6ED212D1CF058090082D594 /* board.png */; };
+		A6ED21331CF058090082D594 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6ED212E1CF058090082D594 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */; };
+		A6ED21341CF058090082D594 /* note1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6ED212F1CF058090082D594 /* note1.png */; };
+		A6ED21351CF058090082D594 /* note2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6ED21301CF058090082D594 /* note2.png */; };
+		A6ED21361CF058090082D594 /* note3.png in Resources */ = {isa = PBXBuildFile; fileRef = A6ED21311CF058090082D594 /* note3.png */; };
 		A6F9CD461CEDB55B0056061D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F9CD451CEDB55B0056061D /* AppDelegate.swift */; };
 		A6F9CD481CEDB55B0056061D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F9CD471CEDB55B0056061D /* ViewController.swift */; };
 		A6F9CD4B1CEDB55B0056061D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F9CD491CEDB55B0056061D /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6ED212D1CF058090082D594 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		A6ED212E1CF058090082D594 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cartoon-Springs-PPT-Backgrounds-1024x768.jpg"; sourceTree = "<group>"; };
+		A6ED212F1CF058090082D594 /* note1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note1.png; sourceTree = "<group>"; };
+		A6ED21301CF058090082D594 /* note2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note2.png; sourceTree = "<group>"; };
+		A6ED21311CF058090082D594 /* note3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note3.png; sourceTree = "<group>"; };
 		A6F9CD421CEDB55B0056061D /* lam toan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lam toan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F9CD451CEDB55B0056061D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6F9CD471CEDB55B0056061D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6ED212C1CF057DB0082D594 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				A6ED212D1CF058090082D594 /* board.png */,
+				A6ED212E1CF058090082D594 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg */,
+				A6ED212F1CF058090082D594 /* note1.png */,
+				A6ED21301CF058090082D594 /* note2.png */,
+				A6ED21311CF058090082D594 /* note3.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		A6F9CD391CEDB55A0056061D = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +76,7 @@
 		A6F9CD441CEDB55B0056061D /* lam toan */ = {
 			isa = PBXGroup;
 			children = (
+				A6ED212C1CF057DB0082D594 /* img */,
 				A6F9CD451CEDB55B0056061D /* AppDelegate.swift */,
 				A6F9CD471CEDB55B0056061D /* ViewController.swift */,
 				A6F9CD491CEDB55B0056061D /* Main.storyboard */,
@@ -96,6 +119,7 @@
 				TargetAttributes = {
 					A6F9CD411CEDB55B0056061D = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GJ453SLBEJ;
 					};
 				};
 			};
@@ -122,9 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6ED21321CF058090082D594 /* board.png in Resources */,
 				A6F9CD501CEDB55C0056061D /* LaunchScreen.storyboard in Resources */,
 				A6F9CD4D1CEDB55B0056061D /* Assets.xcassets in Resources */,
+				A6ED21351CF058090082D594 /* note2.png in Resources */,
+				A6ED21341CF058090082D594 /* note1.png in Resources */,
+				A6ED21361CF058090082D594 /* note3.png in Resources */,
 				A6F9CD4B1CEDB55B0056061D /* Main.storyboard in Resources */,
+				A6ED21331CF058090082D594 /* Cartoon-Springs-PPT-Backgrounds-1024x768.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +276,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "lam toan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.tungnguyen.lam-toan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +290,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "lam toan/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.tungnguyen.lam-toan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +319,7 @@
 				A6F9CD561CEDB55C0056061D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
